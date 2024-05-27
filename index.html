@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Conscious Nomad</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="banner">
+        <div class="container">
+            <h1>Welcome to Conscious Nomad</h1>
+            <h2>Discover the world, sustainably</h2>
+        </div>
+    </header>
+
+    <nav>
+        <div class="logo">
+        <h2>Conscious Nomad</h2>
+        </div>
+
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#our-services">Our Services</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section class="container">
+        <div id="about" class="card">
+            <h3>About Us</h3>
+            <p>Conscious Nomad is an online aggregator that specializes in sustainable travel in the form of both a mobile application and a website to book hotels and restaurants.</p>
+            <a href="https://drive.google.com/file/d/12gmqWOWm386BmHhz2zJkMkgbDsjhbrFa/view?usp=sharing" class="btn-blue">Learn More</a>
+        </div>
+        <div id="our-services" class="card">
+            <h4>Our Services</h4>
+            <ul>
+                <li>For travellers, we provide an aggregator portal (website, app) to make sustainable holiday and leisure decisions. Whether it be through our range of eco-conscious vetted hotels, restaurants or good for the environment experiences!</li>
+                <li>For businesses looking to list on Conscious Nomad, we do more than just give their offerings a platform through our travel portal. We also offer a consultancy service to help our clients audit, improve and implement sustainable hospitality best practices.</li>
+            </ul>
+        </div>
+        <div id="team" class="card">
+            <h5>Team</h5>
+            <div class="team-member">
+                <img class="avatar" src="images/zubin.jpeg" alt="Zubin Iyappa">
+                <h4>Zubin Iyappa</h4>
+                <p>Founder</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <form action="contact.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Conscious Nomad</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/zubin.iyappa"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/z.ubin/?hl=en"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/zubin-iyappa-887742194/"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/0e7f9cc681.js"></script>
+</body>
+</html>
